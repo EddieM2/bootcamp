@@ -7,17 +7,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
 
-    <title>index</title>
+    <title>header</title>
 </head>
 <body> 
 
+<nav class="navbar navbar-dark bg-dark">
+    <div class="container">
+        <a href="index.php" class="navbar-brand">PHP CRUD</a>
+    </div>
+</nav>
 
-
-
-
-
-
-
-    
-</body>
-</html>
