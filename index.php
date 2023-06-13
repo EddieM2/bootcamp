@@ -46,7 +46,11 @@
                             <td><?php echo $row['title'] ?> </td>
                             <td><?php echo $row['description'] ?></td>
                             <td><?php echo $row['created_ad'] ?></td>
-                            
+                            <td>
+                                <a href="edit.php?id=<?php echo $row['id'] ?>">
+                                    Edit
+                                </a>
+                            </td>
                         </tr>
                         
                     <?php } ?>
